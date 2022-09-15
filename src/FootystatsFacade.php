@@ -4,9 +4,6 @@ namespace Iteearmah\Footystats;
 
 use Illuminate\Support\Facades\Facade;
 
-/**
- * @see \Iteearmah\Footystats\Skeleton\SkeletonClass
- */
 class FootystatsFacade extends Facade
 {
     /**

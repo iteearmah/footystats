@@ -3,6 +3,7 @@
 namespace Iteearmah\Footystats;
 
 use Illuminate\Support\ServiceProvider;
+use Iteearmah\Footystats\Console\Commands\LeagueTableCommand;
 
 class FootystatsServiceProvider extends ServiceProvider
 {
@@ -40,7 +41,9 @@ class FootystatsServiceProvider extends ServiceProvider
             ], 'lang');*/
 
             // Registering package commands.
-            // $this->commands([]);
+            $this->commands([
+                LeagueTableCommand::class,
+            ]);
         }
     }
 
