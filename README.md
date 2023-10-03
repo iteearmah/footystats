@@ -1,4 +1,4 @@
-# Very short description of the package
+# Footystats API Fetch
 
 
 A set of commands to retrieve data from footystats.org API and store it in a database
